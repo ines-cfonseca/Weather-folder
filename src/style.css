@@ -125,6 +125,10 @@ hr {
   font-family: "Dongle", sans-serif;
 }
 
+.code {
+  margin: auto;
+}
+
 #currentButton {
   display: block;
   margin: auto 331px;
