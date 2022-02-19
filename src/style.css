@@ -126,7 +126,7 @@ hr {
 }
 
 .code {
-  margin: auto;
+  margin: auto 20px;
 }
 
 #currentButton {
