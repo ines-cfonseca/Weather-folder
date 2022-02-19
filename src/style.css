@@ -128,7 +128,7 @@ hr {
 .code {
   margin: 76px -19px 9px 744px;
   font-size: 12px;
-  position: static;
+  position: fixed;
 }
 
 #currentButton {
