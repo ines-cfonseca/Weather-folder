@@ -1,0 +1,144 @@
+.circle {
+  opacity: 68%;
+  width: 500px;
+  height: 500px;
+  background: #32afa9;
+  border-radius: 50%;
+  position: static;
+  margin: 0 auto;
+}
+
+.circle-2 {
+  opacity: 96%;
+  width: 392px;
+  height: 135px;
+  background: #ace6c0;
+  border-radius: 58px 58px 58px 58px;
+  margin: 76px 344px 14px;
+  position: static;
+  color: #32afa9;
+}
+
+.search-engine {
+  border-radius: 58px 58px 58px 58px;
+  height: 10px;
+  border: none;
+  margin-left: 10px;
+}
+
+.form {
+  opacity: 63%;
+  margin-top: 107px;
+  margin-left: 84px;
+  display: block;
+}
+
+h1 {
+  color: aliceblue;
+  margin-left: 86px;
+  margin-top: 26px;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  font-size: 71px;
+  margin-top: 13px;
+  margin-left: 197px;
+  color: #93e4c1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500px;
+}
+
+h3 {
+  font-size: 140px;
+  margin-left: 84px;
+  margin-top: -34px;
+}
+
+h4 {
+  font-size: 10px;
+  margin-left: 90px;
+  margin-top: -18px;
+  color: #ffebbb;
+  font-size: 12px;
+  opacity: 87%;
+}
+
+h5 {
+  font-size: 24px;
+  margin-left: 23px;
+  margin-top: 2px;
+  margin-bottom: -5px;
+  color: #93e4c1;
+  font-family: "Dongle", sans-serif;
+}
+
+p {
+  margin-left: 274px;
+  margin-top: -165px;
+  color: aliceblue;
+  font-size: 24px;
+  font-family: "Dongle", sans-serif;
+}
+
+hr {
+  width: 351px;
+  margin: -13px 26px;
+  size: 3px;
+  color: rgb(252, 252, 252);
+}
+.emoji-row {
+  opacity: 79%;
+  font-size: 24px;
+  margin: -100px 10px 10px 47px;
+  position: static;
+}
+
+.col-2 {
+  margin: 7px -11px 6px 4px;
+}
+
+.temperature-row {
+  font-size: 15px;
+  margin: -27px 4px -1px 54px;
+  position: static;
+
+  font-size: 27px;
+  font-family: "Dongle", sans-serif;
+}
+
+.week-day {
+  font-size: 15px;
+  margin: -11px 3px -27px 51px;
+  position: static;
+  font-size: 27px;
+  font-family: "Dongle", sans-serif;
+}
+
+.day-month {
+  font-size: 10px;
+  margin: 7px 8px -28px 55px;
+  position: static;
+
+  font-size: 20px;
+  font-family: "Dongle", sans-serif;
+}
+
+#currentButton {
+  display: block;
+  margin: auto 331px;
+  padding: 1% 2%;
+  opacity: 50%;
+  border-radius: 10px;
+  background: #24817d;
+  color: aliceblue;
+  border: #24817d;
+}
+
+#currentButton:hover {
+  transition: all 10 ease-in-out;
+  background: aliceblue;
+  border: aliceblue;
+  color: #24817d;
+}
