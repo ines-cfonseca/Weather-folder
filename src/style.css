@@ -126,9 +126,9 @@ hr {
 }
 
 .code {
-  margin: 76px -19px 9px 744px;
+  margin: 77px 10px;
   font-size: 12px;
-  position: fixed;
+  position: static;
 }
 
 #currentButton {
