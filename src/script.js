@@ -40,28 +40,29 @@ form.addEventListener("submit", search);
 function changeTemperature(event) {
   event.preventDefault();
   let h2 = document.querySelector("h2");
-  h2.innerHTML = "63°";
+  h2.innerHTML = null;
 }
 
 let fakeTemperature = document.querySelector("#c-f");
 fakeTemperature.addEventListener("click", changeTemperature);
 
-//
+let iconElement = document.querySelector("#icon");
 
 function displayWeatherCondition(response) {
   document.querySelector("h1").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
   );
-
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
   );
-  console.log(response.data);
-
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
 }
 
 function searchCity(city) {
